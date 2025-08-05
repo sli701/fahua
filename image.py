@@ -2,8 +2,8 @@ import os
 from PIL import Image, ImageOps
 
 # Folder containing images
-input_folder = "C:\\Users\\shuntian.li\\Documents\\fa_app\\img_raw"
-output_folder = "C:\\Users\\shuntian.li\\Documents\\fa_app\\img_trim"
+input_folder = ".\\fa_app\\img_raw"
+output_folder = ".\\fa_app\\img_trim"
 
 os.makedirs(output_folder, exist_ok=True)
 
