@@ -48,18 +48,18 @@ if page == "FA - Flower":
 
     # Sample flower shop items (Name, Price, Image URL)
     flowers = [
-        {"name": "Blush Elegance", "price": 65, "img": "./img_trim1.jpg"},
-        {"name": "Sunlit Grace", "price": 74, "img": "./img_trim2.jpg"},
-        {"name": "Enchanted Orchids", "price": 100, "img": "./img_trim3.jpg"},
-        {"name": "Golden Sunrise", "price": 68, "img": "./img_trim4.jpg"},
-        {"name": "Blush Harmony", "price": 76, "img": "./img_trim5.jpg"},
-        {"name": "Spring Serenade", "price": 83, "img": "./img_trim6.jpg"},
-        {"name": "Whispering Love", "price": 64, "img": "./img_trim7.jpg"},
-        {"name": "Midnight Elegance", "price": 85, "img": "./img_trim8.jpg"},
-        {"name": "Frosted Grace", "price": 88, "img": "./img_trim9.jpg"},
-        {"name": "Whispering Pastels", "price": 78, "img": "./img_trim10.jpg"},
-        {"name": "Grace in Bloom", "price": 75.5, "img": "./img_trim11.jpg"},
-        {"name": "Champagne Whispers", "price": 66.5, "img": "./img_trim12.jpg"},
+        {"name": "Blush Elegance", "price": 65, "img": "./img_trim/1.jpg"},
+        {"name": "Sunlit Grace", "price": 74, "img": "./img_trim/2.jpg"},
+        {"name": "Enchanted Orchids", "price": 100, "img": "./img_trim/3.jpg"},
+        {"name": "Golden Sunrise", "price": 68, "img": "./img_trim/4.jpg"},
+        {"name": "Blush Harmony", "price": 76, "img": "./img_trim/5.jpg"},
+        {"name": "Spring Serenade", "price": 83, "img": "./img_trim/6.jpg"},
+        {"name": "Whispering Love", "price": 64, "img": "./img_trim/7.jpg"},
+        {"name": "Midnight Elegance", "price": 85, "img": "./img_trim/8.jpg"},
+        {"name": "Frosted Grace", "price": 88, "img": "./img_trim/9.jpg"},
+        {"name": "Whispering Pastels", "price": 78, "img": "./img_trim/10.jpg"},
+        {"name": "Grace in Bloom", "price": 75.5, "img": "./img_trim/11.jpg"},
+        {"name": "Champagne Whispers", "price": 66.5, "img": "./img_trim/12.jpg"},
     ]
 
     cols_per_row = 4
