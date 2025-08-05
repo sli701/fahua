@@ -10,13 +10,13 @@ from email.mime.multipart import MIMEMultipart
 # sender_email = os.getenv("sender_email")
 
 # Hide default Streamlit elements (header, footer, menu)
-hide_streamlit_style = """
-    <style>
-    header {visibility: hidden;}
-    footer {visibility: hidden;}
-    </style>
-"""
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+# hide_streamlit_style = """
+#     <style>
+#     header {visibility: hidden;}
+#     footer {visibility: hidden;}
+#     </style>
+# """
+# st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
 sender_email = st.secrets["sender_email"]
