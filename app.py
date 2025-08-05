@@ -1,15 +1,24 @@
+#%%
 import streamlit as st
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from dotenv import load_dotenv
-import os   
-load_dotenv()  # Load environment variables from .env file
+# Load environment variables from .env file
 
-app_password = os.getenv("Google_App_Password")
-receiver_email = os.getenv("receiver_email")
-sender_email = os.getenv("sender_email")
+# app_password = os.getenv("Google_App_Password")
+# receiver_email = os.getenv("receiver_email")
+# sender_email = os.getenv("sender_email")
 
+
+sender_email = st.secrets["sender_email"]
+receiver_email = st.secrets["receiver_email"]   
+app_password = st.secrets["Google_App_Password"]
+# print("✅ Environment variables loaded successfully!")
+# print(f"Sender Email: {sender_email}")
+# print(f"Receiver Email: {receiver_email}")  
+# print("✅ App Password loaded successfully!")
+
+#%%
 
 # Set page configuration
 st.set_page_config(page_title="FA - Flower", layout="wide")
