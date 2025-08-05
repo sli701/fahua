@@ -62,9 +62,9 @@ if page == "FA - Flower":
                 st.image(flower["img"], use_container_width=True)
                 st.markdown(f"**{flower['name']}**")
                 st.markdown(f"Price: ${flower['price']}")
-                if st.button(f"Add {flower['name']}", key=f"btn_{i+idx}"):
-                    st.session_state.cart.append(flower)
-                    st.success(f"{flower['name']} added to cart!")
+                #if st.button(f"Add {flower['name']}", key=f"btn_{i+idx}"):
+                #    st.session_state.cart.append(flower)
+                #    st.success(f"{flower['name']} added to cart!")
 
     # Display Cart
     if st.session_state.cart:
