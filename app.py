@@ -16,6 +16,11 @@ st.markdown("""
             display: none;
         }
 
+        /* Hide manage app button */
+        [data-testid="manage-app-button"] {
+            display: none;
+        }
+
         /* Hide main menu (hamburger menu) */
         [data-testid="stMainMenu"] {
             display: none;
